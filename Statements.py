@@ -1,4 +1,4 @@
-If statements 
+1. If statements 
 
 name = input("Enter your name ")
 age = int(input("How old are you {0}? ".format(name)))
@@ -14,7 +14,7 @@ How old are you Kiran? 21
 You can vote
 *************************************
 
-  If and else statement
+2. If and else statement
 
 name = input("Enter your name ")
 age = int(input("How old are you {0}? ".format(name)))
@@ -39,15 +39,15 @@ How old are you Kiran? 22
 You can vote
 *************************************
 
-elif statements
+3. elif statements
 
 name = input("Enter your name ")
 age = int(input("How old are you {0}? ".format(name)))
 print(age)
 
-if age<18:
+if age < 18:
     print("You can vote")
-elif age==22:
+elif age == 22:
     print("Cast your vote. You are youth")
 else:
     print("Please comeback after {0} years".format(18-age))
@@ -59,3 +59,87 @@ How old are you kiran? 22
 22
 Cast your vote. You are youth
 
+*************************************
+
+4. Write a small program that assigns the value 5 to one variable, called x, and the value 7 to another, called y.
+
+Your program should then use an if statement to compare the values, and print out x is greater than y if x is greater, or x is smaller than y if y is greater. If x equals y, print out x equals y
+
+x = 5
+y = 7
+
+if x>y:
+    print("x is greater than y")
+    
+elif x==y:
+    print("x equals y")
+    
+else:
+    print("x is smaller than y")
+
+Output:
+x is smaller than y
+
+*************************************
+
+5. Guessing a number Program
+
+number = 5
+
+print("Guess the number btw 1 and 10")
+guess = int(input("Type here "))
+
+if guess > number:
+    print("Guess the lower number")
+    guess = int(input("Try again "))
+    if guess == number:
+        print("Your guess is right")
+    else:
+        print("Restart again")
+        
+elif guess == number:
+    print("Your guess is right")
+
+else:
+    print("Guess the greater number")
+    guess = int(input())
+    if guess == number:
+        print("Your guess is right")
+    else:
+        print("Restart again")
+Output:
+Guess the number btw 1 and 10
+Type here 9
+Guess the lower number
+Try again 5
+Your guess is right
+
+*************************************
+6. and, or in conditions 
+
+print("Enter your age: ")
+age = int(input())
+
+if age>20 and age<30:        #both condition should satisfy
+    print("You are young ")
+
+elif age>41 or age <60:      #Any one condition can be satisfied
+    print("You are near to become a senior citizen")
+
+else:
+    print("Condition not satisfied")
+
+Output:
+
+Enter your age: 
+45
+You are near to become a senior citizen
+
+or
+
+Enter your age: 
+24
+You are young 
+
+*************************************
+7. 
