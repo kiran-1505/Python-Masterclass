@@ -82,7 +82,7 @@ x is smaller than y
 
 *************************************
 
-5. Guessing a number Program
+5.  Guessing a number Program
 
 number = 5
 
