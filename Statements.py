@@ -142,4 +142,22 @@ Enter your age:
 You are young 
 
 *************************************
-7. 
+7. Boolen operation (And, or , not)
+
+day = input("Enter the day ")
+temp = input("Enter the temperature ")
+rainy = input("Is it raining (True/False) ")
+
+if day == "Monday" and temp > '27' and not rainy:
+    print("Go to swimming")
+else:
+    print("Don't go")
+
+Output:
+Enter the day Monday
+Enter the temperature 30
+Is it raining (True/False) True
+Don't go
+
+*************************************
+8. 
