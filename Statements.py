@@ -160,4 +160,63 @@ Is it raining (True/False) True
 Don't go
 
 *************************************
-8. 
+
+8. in condition
+
+animal = "Elephant"
+letter = input("Enter the character ")
+
+if letter in animal:
+    print("The {} is in {}".format(letter,animal))
+else:
+    print("The character is not present")
+
+Output
+Enter the character e
+The e is in Elephant
+
+or 
+
+Enter the character phant
+The phant is in Elephant
+
+or
+
+Enter the character A   #CASE SENSITIVE
+The character is not present
+
+*************************************
+
+9. not in condition 
+
+animal = "Elephant"
+letter = input("Enter the character ")
+
+if letter not in animal:
+    print("The {} is not in {}".format(letter,animal))
+else:
+    print("The character is present")
+
+Output
+Enter the character q
+The q is not in Elephant
+
+*************************************
+10. 
+
+name = input("Enter the name ")
+age = int(input("Enter the age "))
+
+if age >= 18 and age < 31:
+    print("{} you are welcomed to the holiday".format(name))
+else:
+    print("You can't enter")
+
+Output:
+Enter the name Kiran
+Enter the age 22
+Kiran you are welcomed to the holiday
+
+*************************************
+
+11. 
