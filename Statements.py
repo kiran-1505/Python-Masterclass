@@ -202,7 +202,7 @@ Enter the character q
 The q is not in Elephant
 
 *************************************
-10. 
+10. if and else 
 
 name = input("Enter the name ")
 age = int(input("Enter the age "))
@@ -219,4 +219,69 @@ Kiran you are welcomed to the holiday
 
 *************************************
 
-11. 
+11. Loops (for)
+
+parrot = "Norwegian Blue"
+
+for character in parrot:
+    print(character)
+
+Output:
+N
+o
+r
+w
+e
+g
+i
+a
+n
+ 
+B
+l
+u
+e
+
+*************************************
+12. Printing out all the separators in the string
+
+number = "9,223;372:036 854,77;807"
+separtors = " "
+
+for char in number:
+    if not char.isnumeric():
+        separtors = separtors + char
+
+print(separtors)
+
+Output:
+ ,;: ,;
+
+*************************************
+13. 
+Write a program to print out the capital letters in the string
+"Alright, but apart from the Sanitation, the Medicine, Education, Wine, Public Order, 
+Irrigation, Roads, the Fresh-Water System, and Public Health, what have the Romans ever done for us?"
+
+Answer: 
+
+quote = """
+Alright, but apart from the Sanitation, the Medicine, Education, Wine,
+Public Order, Irrigation, Roads, the Fresh-Water System,
+and Public Health, what have the Romans ever done for us?
+"""
+ 
+# Use a for loop and an if statement to print just the capitals in the quote above.
+for char in quote:
+    if char.isupper():
+        print(char)
+        
+*************************************
+14.
+Write a program to print out all the numbers from 0 to 9. Each number should print on a new line
+
+for i in range(0,10):
+    print("{}".format(i))
+
+*************************************
+15. 
