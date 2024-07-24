@@ -300,6 +300,39 @@ Output:
 8
 
 *************************************
-16.
-Nested 
->>>>>>> fedff8e (1)
+
+16. Nested for loop
+
+for i in range(1,3):
+    for j in range(1,3):
+        print("{0} times {1} is {2}".format(j, i, i*j))
+    print("----------")
+
+Output
+1 times 1 is 1
+2 times 1 is 2
+----------
+1 times 2 is 2
+2 times 2 is 4
+----------
+*************************************
+
+17.
+shopping_list = ["milk", "Pasta", "eggs", "spam", "bread", "rice" ]
+
+item_to_find="bread"
+found_at = None
+
+for a in range(len(shopping_list)):
+    if shopping_list[a] == item_to_find:
+        found_at = a
+        break
+
+print("Item is found at {}".format(found_at))
+
+output:
+Item is found at 4
+
+*************************************
+
+18. 
