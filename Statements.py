@@ -282,6 +282,6 @@ Write a program to print out all the numbers from 0 to 9. Each number should pri
 
 for i in range(0,10):
     print("{}".format(i))
-
+output:
 *************************************
 15. 
