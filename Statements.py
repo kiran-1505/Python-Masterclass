@@ -284,4 +284,22 @@ for i in range(0,10):
     print("{}".format(i))
 output:
 *************************************
+<<<<<<< HEAD
 15. 
+=======
+15. Range with steps
+
+for i in range(0,10,2):
+    print("{}".format(i))
+
+Output:
+0
+2
+4
+6
+8
+
+*************************************
+16.
+Nested 
+>>>>>>> fedff8e (1)
