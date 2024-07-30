@@ -335,4 +335,25 @@ Item is found at 4
 
 *************************************
 
-18. 
+18. while loop
+
+i=0
+
+while i<10:
+    print("i is now {}".format(i))
+    i += 1
+
+output:
+i is now 0
+i is now 1
+i is now 2
+i is now 3
+i is now 4
+i is now 5
+i is now 6
+i is now 7
+i is now 8
+i is now 9
+
+*************************************
+19. 
