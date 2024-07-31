@@ -354,5 +354,25 @@ i is now 6
 i is now 7
 i is now 8
 i is now 9
+
 *************************************
+
 19. 
+import random
+
+answer = random.randint(1, 10)
+print(answer)
+guess = int(input("Enter the number btw 1 and 10 "))
+if guess == answer:
+    print("You guessed rgt")
+count = 1
+while guess != answer:
+
+    if guess < answer:
+        print("Guess the higher number")
+    else:
+        print("Guess the smaller number")
+    guess = int(input("Enter the "))
+    if guess == answer:
+        print("Your guess count is {} ".format(count))
+    count +=1
