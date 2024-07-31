@@ -19,7 +19,6 @@ while True:
         print("Please enter h, c or l ")
     guesses += 1
 
-
     Output:
 
     my guess is 500. should i guess lower or higher?enter h or l, or c if my guess was correct h
